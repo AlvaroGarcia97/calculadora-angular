@@ -1,21 +1,21 @@
 # Calculadora con Angular
 
-Calculadora sencilla desarrollada con Angular 19 y componentes standalone. Permite realizar operaciones básicas (suma, resta, multiplicación y división).
+Calculadora sencilla desarrollada con Angular 19 y componentes standalone. Permite realizar operaciones bsicas (suma, resta, multiplicacin y divisin).
 
 ## Funcionalidades
 
-- Suma, resta, multiplicación y división
+- Suma, resta, multiplicacin y divisin
 - Punto decimal
-- Botón limpiar (C)
+- Botn limpiar (C)
 - Interfaz tipo calculadora
 
-## Tecnologías
+## Tecnologas
 
 - Angular 19
 - TypeScript
 - CSS
 
-## Instalación
+## Instalacin
 
 ```bash
 # Clonar
