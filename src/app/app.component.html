@@ -1,0 +1,27 @@
+<div class="calculadora">
+  <div class="display">{{ display }}</div>
+  <div class="botones">
+    <button class="limpiar" (click)="clear()">C</button>
+    <button class="limpiar" (click)="clear()">CE</button>
+    <button class="operador" (click)="operation('/')">/</button>
+    <button class="operador" (click)="operation('*')">x</button>
+
+    <button (click)="press('7')">7</button>
+    <button (click)="press('8')">8</button>
+    <button (click)="press('9')">9</button>
+    <button class="operador" (click)="operation('-')">-</button>
+
+    <button (click)="press('4')">4</button>
+    <button (click)="press('5')">5</button>
+    <button (click)="press('6')">6</button>
+    <button class="operador" (click)="operation('+')">+</button>
+
+    <button (click)="press('1')">1</button>
+    <button (click)="press('2')">2</button>
+    <button (click)="press('3')">3</button>
+    <button class="igual" (click)="equals()">=</button>
+
+    <button (click)="press('0')">0</button>
+    <button (click)="decimal()">.</button>
+  </div>
+</div>

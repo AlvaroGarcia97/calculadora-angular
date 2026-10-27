@@ -1,0 +1,68 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.calculadora {
+  width: 280px;
+  margin: 60px auto;
+  background: #2d2d2d;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.display {
+  background: #1e1e1e;
+  text-align: right;
+  font-size: 2.5rem;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 50%;
+  background: #3d3d3d;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background: #5a5a5a;
+}
+
+.operador {
+  background: #ff9500;
+}
+
+.operador:active {
+  background: #ffaa33;
+}
+
+.igual {
+  background: #ff9500;
+  grid-column: span 2;
+  border-radius: 40px;
+}
+
+.limpiar {
+  background: #a6a6a6;
+  color: black;
+}
+
+.limpiar:active {
+  background: #c6c6c6;
+}
